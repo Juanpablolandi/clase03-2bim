@@ -42,5 +42,10 @@ public class EstudiantePresencial extends Estudiante{
     public double obtenerCostoCredito(){
         return costoCredito;
     }
+
+    @Override
+    public String toString() {
+        return "EstudiantePresencial{" + super.toString()+"numeroCreditos=" + numeroCreditos + ", costoCredito=" + costoCredito + '}';
+    }
     
 }
